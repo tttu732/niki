@@ -60,11 +60,11 @@ a { color: var(--pink-soft); }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 .btn {
   display: inline-flex; align-items: center; gap: 10px;
-  padding: 14px 24px; border-radius: 999px;
+  padding: 14px 24px; border-radius: 666px;
   background: #fff; color: var(--ink); font-weight: 900; text-decoration: none;
   border: 3px solid var(--ink); box-shadow: 0 4px 0 rgba(0, 0, 0, 0.35);
 }
-.btn.soon { background: var(--grad); color: #fff; border-color: transparent; }
+.btn.soon { background: var(--grad); color: #fff; border-color: transparent;　}
 .btn small { font-weight: 700; opacity: 0.85; }
 .hero .art { position: relative; justify-self: center; }
 .hero .art img { width: min(360px, 80vw); border-radius: 26px; box-shadow: 0 30px 80px rgba(240, 69, 111, 0.35); transform: rotate(2deg); }
