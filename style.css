@@ -57,7 +57,7 @@ a { color: var(--pink-soft); }
 .hero .bar { width: 120px; height: 7px; border-radius: 4px; background: var(--grad); margin: 14px 0 18px; }
 .hero .lead { font-size: clamp(18px, 2.4vw, 24px); font-weight: 800; margin: 0 0 12px; }
 .hero p.sub { color: var(--lilac); margin: 0 0 26px; }
-.cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: center; }
 .btn {
   display: inline-flex; align-items: center; gap: 10px;
   padding: 14px 24px; border-radius: 999px;
